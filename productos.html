@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Catálogo de Productos</title>
+
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="index.html" class="logo"><img src="imagen/logo.png"></a>
+        <h1>Mi empresa</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="index.html">Piel De Oro</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>Catálogo de Productos</h1>
+        <div class="catalogo">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="imagen/servicio5.jpg" alt="Producto 1">
+                <div class="producto-info">
+                    <h2>Producto 1</h2>
+                    <p>Este producto descongestiona la piel, elimina manchas y poros abiertos, disminuye la grasa del rostro, previene brotes de acne</p>
+                    <p class="precio">$450.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="imagen/servicio6.jpg" alt="Producto 2">
+                <div class="producto-info">
+                    <h2>Producto 2</h2>
+                    <p>limpiador y desmaquillante para el rostro</p>
+                    <p class="precio">$425.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="imagen/servicio7.jpg" alt="Producto 3">
+                <div class="producto-info">
+                    <h2>Producto 3</h2>
+                    <p>Para unificar el tono de piel, quitar manchas en rostro y cuerpo</p>
+                    <p class="precio">$530.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 4 -->
+            <div class="producto">
+                <img src="imagen/servicio8.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Producto 4</h2>
+                    <p>set de productos mini para el cuidado de la piel</p>
+                    <p class="precio">$315.00</p>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="producto">
+                <img src="imagen/servicio9.jpg" alt="Producto 5">
+                <div class="producto-info">
+                    <h2>Producto 5</h2>
+                    <p>Comprenda la importancia de su barrera cutánea y aprenda qué productos suaves pueden ayudar a reconstruir una barrera más fuerte</p>
+                    <p class="precio">$520.00</p>
+                </div>
+            </div>
+            <!-- Producto 6 -->
+            <div class="producto">
+                <img src="imagen/servicio10.jpg" alt="Producto 6">
+                <div class="producto-info">
+                    <h2>Producto 6</h2>
+                    <p>Este humectante brinda efectos inmediatos y duraderos al reponer la humedad perdida y fortalecer la barrera cutánea con el tiempo. La adición de ácido hialurónico mejora la capacidad del producto para retener la humedad en la piel, ofreciendo una hidratación eficaz durante todo el día, mientras que la inclusión de ceramidas y fosfolípidos</p>
+                    <p class="precio">$415.00</p>
+                </div>
+            </div>
+            <!-- Producto 7 -->
+            <div class="producto">
+                <img src="imagen/servicio11.jpg" alt="Producto 7">
+                <div class="producto-info">
+                    <h2>Producto 7</h2>
+                    <p>Un suero anti-envejecimiento que contiene una solución al 15% de factores de crecimiento para ayudar a minimizar y reparar el daño visible de la piel para regenerar el aspecto de la piel envejecida</p>
+                    <p class="precio">$515.00</p>
+                </div>
+            </div>
+            <!-- Producto 8 -->
+            <div class="producto">
+                <img src="imagen/servicio12.jpg" alt="Producto 8">
+                <div class="producto-info">
+                    <h2>Producto 8</h2>
+                    <p>suero corporal exfoliante con ácido salicílico</p>
+                    <p class="precio">$585.00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: cuidadodelapiel@.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>
