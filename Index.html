@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina WEB</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/logo.png"></a>
+        <h1>Piel De Oro</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="Index.html">¿Quienes somos?</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="imagen/nosexd.jpg" alt="Piel de Oro">
+            </div>
+            <div class="derecha">
+                <h2>Mi empresa</h2>
+                <p>"Empoderar a las personas a travez de productos de alta calidad que cuidan la piel y realzan su confianza"</p>    
+            </div>
+        </section>
+
+        <!-- Sección de Promociones -->
+        <section id="promocion">
+            <h2>PROOMCIONES</h2>
+            <div class="catalogo">
+                <!-- promocion 1 -->
+                <div class="producto">
+                    <img src="imagen/producto1.jpg" alt="Producto 1">
+                    <div class="producto-info">
+                        <h2>Promoción Especial 1</h2>
+                        <p>Este producto resaltar los ingredientes naturales para la elasticidad de la piel</p>
+                    </div>
+                </div>
+                <!-- promocion 2 -->
+                <div class="producto">
+                    <img src="imagen/producto2.jpg" alt="Producto 2">
+                    <div class="producto-info">
+                        <h2>Promoción Especial 2</h2>
+                        <p>Este producto es esencial para todo tipo de piel</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección de Servicios y Precios -->
+        <section id="servicios" class="columnas">
+            <div class="izquierda">
+                <h2>Servicios y Precios</h2>
+                <ul>
+                    <li>servicio de limpieza facial: $250</li>
+                    <li>servicio de exfoliacion facial: $350</li>
+                    <li>servicio de exfoliacion corporal: $650</li>
+                    <li>servicio de depilacion facial : desde $50</li>
+                    <!-- Agregar más servicios según sea necesario -->
+                </ul>
+            </div>
+            <div class="derecha">
+                <img src="imagen/servicio.jpg" alt="Servicio">
+            </div>
+        </section>
+
+        <!-- Sección de Marcas -->
+        <section id="marcas">
+            <h2>Un espacio reservado para ti</h2>
+            <div class="brands">
+                <img src="imagen/servicio2.jpg" alt="Marca 1">
+                <img src="imagen/servicio3.jpg" alt="Marca 2">
+                <img src="imagen/servicio4.jpg" alt="Marca 3">
+                <img src="imagen/servicio1.jpg" alt="Marca 4">
+            </div>
+        </section>
+    </main>
+    <audio controls>
+        <source src="Lol1.mp3" type="audio/mpeg">
+    </audio>
+    <video src="Lol2.mp4"width="350" height="390" controls>Tu navegador no implementa el video <code>video</code></video>
+                </section></section>
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: cuidadodelapiel@.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>
