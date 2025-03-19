@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina WEB</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/logo.png"></a>
+        <h1>Piel De Oro</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="somos.html">¿Quienes somos?</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="imagen/nosexd.jpg" alt="Piel de Oro" width="200" height="250">
+            </div>
+            <div class="derecha">
+                <h2>Mi empresa</h2>
+            </div>
+        </section>
+        <p>Empoderar a las personas a travez de productos de alta calidad que cuidan la piel y realzan su confianza</p>
+        <br>
+        <br>
+        <br>
+        <h2>VISION</h2>
+        <i><p>Nuestra vision es crecer y poder ser reconocido por varios clientes al visitarnos, establecer la confianza</p></i>
+        <img src="imagen/nosexd8.jpg"
+        <br>
+        <br>
+        <br>
+        <h2>MISION</h2>
+        <i><p>Nuestra mision es poder brindarte la mejor atencion con un lugar tranquilo yseguro para ti</p></i>
+        <br>
+        <br>
+        <br>
+        <h2>OBJETIVOS</h2>
+        <i><p>Nuestro objetivo es incrementar la satisfaccion del cliente, y tener la confianza de nuestros clientes</p></i>
+        <img src="imagen/nosexd9.jpg"
+        <img>
+        <img>
+        <img>
+        <section></section>
+        <div class="izquierda">
+        </div>
+
+        <video src="Lol2.mp4" autoplay controls width="200" height="250"></video>
+        <audio src="Lol1.mp3" loop autoplay controls></audio>
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: cuidadodelapiel@.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>
